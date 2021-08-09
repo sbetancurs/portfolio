@@ -1,0 +1,9 @@
+.paragraph {
+  color: green;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.button {
+  padding: 1rem 2rem;
+}
