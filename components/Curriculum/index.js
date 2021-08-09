@@ -3,10 +3,10 @@ import { breakpoints, colors, fontSizes } from "/styles/theme.js";
 
 const Curriculum = () => {
   const info = {
-    cel: "3118889977",
+    cel: "3168216424",
     email: "julianangel94@gmail.com",
-    github: "julianangel",
-    domain: "www.elapadelosapaces.com",
+    // github: "julianangel",
+    // domain: "www.elapadelosapaces.com",
     name: "Julian Angel Arango",
   };
 
@@ -37,14 +37,14 @@ const Curriculum = () => {
                   <img src="/icons/phone.svg" alt="phone" />
                   <span className="mx-2">{info.cel}</span>
                 </li>
-                <li>
+                {/* <li>
                   <img src="/icons/github.svg" alt="github" />
                   <span className="mx-2">
                     <a href={`https://github.com/sbetancurs${info.github}`}>
                       {info.github}
                     </a>
                   </span>
-                </li>
+                </li> */}
                 <li>
                   <img src="/icons/geo.svg" alt="localization" />
                   <span className="mx-2">Medellín, Colombia.</span>
@@ -58,7 +58,7 @@ const Curriculum = () => {
               </div>
             </div>
             <div className="w-100 mt-5 px-2">
-              <h2 className="mb-2  text-center">education</h2>
+              <h2 className="mb-2  text-center">Educacion</h2>
               <ul>
                 <li>
                   <img src="/icons/award.svg" alt="award" />
@@ -103,50 +103,61 @@ const Curriculum = () => {
               </div>
             </div>
             <div className="hv-section">
-              <h2>"hv:qualificatio"</h2>
+              <h2>Conocimientos</h2>
             </div>
             <div className="hv-content">
               <ul>
                 <li>
                   <img src="/icons/arrow-right-short.svg" alt="mail" />
-                  <b>"hv:languag":</b> C#, Blazor, .Net Core, JavaScript,
-                  NodeJS, TypeScript.
+                  <b>Leguajes:</b> C#, Blazor, .Net Core, JavaScript,
+                  TypeScript.
                 </li>
                 <li>
                   <img src="/icons/arrow-right-short.svg" alt="mail" />
-                  <b>"hv:framewor":</b> NextJS, Angular.
+                  <b>Frameworks:</b> NextJS.
                 </li>
                 <li>
                   <img src="/icons/arrow-right-short.svg" alt="mail" />
-                  <b>"hv:librari":</b> React.
+                  <b>Librerias:</b> React.
                 </li>
                 <li>
                   <img src="/icons/arrow-right-short.svg" alt="mail" />
-                  <b>"hv:respositori":</b> Git, Github, GitLab, Azure
+                  <b>Repositorios:</b> Git, Github, GitLab, Azure
                 </li>
               </ul>
             </div>
 
             <div className="hv-section">
-              <h2>"hv:workExperien"</h2>
+              <h2>Experiencia laboral</h2>
             </div>
             <div className="hv-content">
-              <p className="date">"hv:april""19 &rArr; "hv:present"" </p>
+              <p className="date">Abril 2019 &rArr; Actualmente </p>
               <div className="d-flex subtitle">
                 <img src="/icons/arrow-right-short.svg" alt="mail" />
                 <h3>Sourcecol S.A.S</h3>
               </div>
-              <address>Mi ("hv:engineer" - Medellín, Colombia.</address>
-              <p>"hv:sourcecolExp"</p>
+              <address>Medellín, Colombia.</address>
+              <p>
+                Trabajando como desarrollador de backend y frontend para
+                desarrollar formularios web donde los usuarios pueden realizar
+                adquisiciones, generar pedidos, rastrear contratos.
+              </p>
+              <p>
+                Administrar roles y permisos para habilitar algunas funciones a
+                los usuarios y restringir otras.
+              </p>
+              <p>
+                Diseñar la web principal para ser más amigable con los usuarios.
+              </p>
 
-              <p className="date">("hv:march" 2018 &rArr ("hv:april" 2019</p>
+              <p className="date">Enero 2018 &rArr; Abril 2019</p>
               <div className="d-flex subtitle">
                 <img src="/icons/arrow-right-short.svg" alt="mail" />
                 <h3>E-city Software</h3>
               </div>
-              <address>Junio ("hv:developer" - Medellín, Colombia.</address>
+              <address>Medellín, Colombia.</address>
               <p>
-                -Trabajé como desarrollador backend y frontend, desarrollando
+                Trabajé como desarrollador backend y frontend, desarrollando
                 API's, diseñando formularios, desarrollando workflows, etc.
                 \n-Trabajó en la programación de dispositivos físicos que las
                 empresas colocan en sus sucursales donde los usuarios pueden
@@ -154,24 +165,26 @@ const Curriculum = () => {
                 Trabajó en la programación de dispositivos físicos que los cines
                 colocan en sus sucursales donde los usuarios pueden pagar
                 boletos, buscar funciones, seleccionar sala de posición, buscar
-                boletos comprados y todo esto con efectivo. -Dispositivos
-                físicos integrados que administran efectivo como billetera,
-                monedero, escáner de dedos, etc. Se utiliza en software para
-                obtener dinero, devolver dinero, habilitar la autenticación.
-                n-Implementó y administró la infraestructura de traducción en
-                nuestras aplicaciones frontend y backend
+                boletos comprados y todo esto con efectivo.
+              </p>
+              <p>
+                Dispositivos físicos integrados que administran efectivo como
+                billetera, monedero, escáner de dedos, etc. Se utiliza en
+                software para obtener dinero, devolver dinero, habilitar la
+                autenticación. n-Implementó y administró la infraestructura de
+                traducción en nuestras aplicaciones frontend y backend.
               </p>
 
-              <p className="date">("hv:january" 2017 &rArr ("hv:march" 2018</p>
+              {/* <p className="date">("hv:january" 2017 &rArr ("hv:march" 2018</p>
               <div className="d-flex subtitle">
                 <img src="/icons/arrow-right-short.svg" alt="mail" />
                 <h3>1Cero1 Software</h3>
               </div>
               <address>Junio ("hv:developer" - Medellín, Colombia.</address>
-              <p>"hv:1cero1Exp"</p>
+              <p>"hv:1cero1Exp"</p> */}
             </div>
 
-            <div className="hv-section">
+            {/* <div className="hv-section">
               <h2>"hv:entrepreneurship"</h2>
             </div>
             <div className="hv-content mb-3">
@@ -180,9 +193,9 @@ const Curriculum = () => {
                 <h3>Oxigiovanny App</h3>
               </div>
               <p>"hv:oxigiovannyExp"</p>
-            </div>
+            </div> */}
 
-            <div className="hv-section">
+            {/* <div className="hv-section">
               <h2>"hv:openSource"</h2>
             </div>
             <div className="hv-content mb-3">
@@ -195,20 +208,20 @@ const Curriculum = () => {
                 </div>
               </h3>
               <p>"hv:portfolioExp"</p>
+            </div> */}
+
+            <div className="hv-section">
+              <h2>Educacion</h2>
+            </div>
+            <div className="hv-content">
+              <p></p>
             </div>
 
             <div className="hv-section">
-              <h2>"hv:education"</h2>
+              <h2>Intereses</h2>
             </div>
             <div className="hv-content">
-              <p>"hv:educationExp"</p>
-            </div>
-
-            <div className="hv-section">
-              <h2>"hv:activitiesInterests"</h2>
-            </div>
-            <div className="hv-content">
-              <p>"hv:activities"</p>
+              <p></p>
             </div>
           </div>
         </div>
