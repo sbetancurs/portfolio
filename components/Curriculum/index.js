@@ -63,7 +63,15 @@ const Curriculum = () => {
                 <li>
                   <img src="/icons/award.svg" alt="award" />
                   <span className="mx-2">
-                    , Tecnológico de Antioquia, March 2021.
+                    Tecnologo de sistemas, ITM(Instituto Tecnologico
+                    Metropolitano), junio 2015.
+                  </span>
+                </li>
+                <li>
+                  <img src="/icons/award.svg" alt="award" />
+                  <span className="mx-2">
+                    Ingeniro de sistemas, ITM(Instituto Tecnologico
+                    Metropolitano), Abril 2018.
                   </span>
                 </li>
               </ul>
@@ -90,10 +98,7 @@ const Curriculum = () => {
             >
               <h1>{info.name}</h1>
               <div>
-                <a
-                  id="email"
-                  href="mailto:c2ViYXNiZXRhbmN1cjk3QGdtYWlsLmNvbQ=="
-                >
+                <a id="email" href={`mailto:${info.email}`}>
                   {info.email}
                 </a>
                 <br />
@@ -108,20 +113,15 @@ const Curriculum = () => {
             <div className="hv-content">
               <ul>
                 <li>
-                  <img src="/icons/arrow-right-short.svg" alt="mail" />
-                  <b>Leguajes:</b> C#, Blazor, .Net Core, JavaScript,
-                  TypeScript.
+                  <b>Leguajes:</b> C#, Blazor, .Net Core, JavaScript.
                 </li>
                 <li>
-                  <img src="/icons/arrow-right-short.svg" alt="mail" />
                   <b>Frameworks:</b> NextJS.
                 </li>
                 <li>
-                  <img src="/icons/arrow-right-short.svg" alt="mail" />
                   <b>Librerias:</b> React.
                 </li>
                 <li>
-                  <img src="/icons/arrow-right-short.svg" alt="mail" />
                   <b>Repositorios:</b> Git, Github, GitLab, Azure
                 </li>
               </ul>
@@ -133,7 +133,6 @@ const Curriculum = () => {
             <div className="hv-content">
               <p className="date">Abril 2019 &rArr; Actualmente </p>
               <div className="d-flex subtitle">
-                <img src="/icons/arrow-right-short.svg" alt="mail" />
                 <h3>Sourcecol S.A.S</h3>
               </div>
               <address>Medellín, Colombia.</address>
@@ -152,8 +151,7 @@ const Curriculum = () => {
 
               <p className="date">Enero 2018 &rArr; Abril 2019</p>
               <div className="d-flex subtitle">
-                <img src="/icons/arrow-right-short.svg" alt="mail" />
-                <h3>E-city Software</h3>
+                <h3>1cero1 Softaware S.A.S</h3>
               </div>
               <address>Medellín, Colombia.</address>
               <p>
@@ -173,6 +171,20 @@ const Curriculum = () => {
                 software para obtener dinero, devolver dinero, habilitar la
                 autenticación. n-Implementó y administró la infraestructura de
                 traducción en nuestras aplicaciones frontend y backend.
+              </p>
+
+              <p className="date">Abril 2017 &rArr; Octubre 2017</p>
+              <div className="d-flex subtitle">
+                <h3>ARUS</h3>
+              </div>
+              <address>Medellín, Colombia.</address>
+              <p>
+                Brindar apoyo en todo lo relacionado con soporte a los
+                aplicativos del área, tanto desarrollando como corrigiendo
+                posibles errores en ellos, con Oracle como motor de base de
+                datos y php como lenguaje de programacion. También apoyando en
+                labores administrativas tales como la gestión de las
+                transferencias y de los indicadores del área.
               </p>
 
               {/* <p className="date">("hv:january" 2017 &rArr ("hv:march" 2018</p>
@@ -214,7 +226,15 @@ const Curriculum = () => {
               <h2>Educacion</h2>
             </div>
             <div className="hv-content">
-              <p></p>
+              <p>
+                Tecnologo de sistemas, ITM(Instituto Tecnologico Metropolitano),
+                obtenido en junio del 2015.
+              </p>
+              <p>
+                Ingeniero de sistemas,ITM(Instituto Tecnologico Metropolitano),
+                obtenido en abril del 2018.
+              </p>
+              <p>Certificaciones de Platzi, Platzi,obtenidas desde el 2019.</p>
             </div>
 
             <div className="hv-section">
