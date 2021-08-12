@@ -13,7 +13,7 @@ export const colors = {
   white: "#ffffff",
   primary: "#00C0FF",
   primary_highlight: "#29aeda",
-  secondary: "#071f47",
+  secondary: "#1C1B1B",
   background_primary: "#002",
   background_secondary: "#324376",
   background_third: "#191c1f",
