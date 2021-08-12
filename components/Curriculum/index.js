@@ -22,9 +22,9 @@ const Curriculum = () => {
         <div className="row content">
           <div className="left-section col-lg-2 d-flex flex-column align-items-center py-3">
             <img
-              src="/images/me.png"
+              src="/images/me.jpg"
               alt="Curriculum"
-              className="photo rounded-circle w-100"
+              className="photo rounded w-100"
             />
             <div className="w-100 mt-3 px-2">
               <h2 className="mb-2 text-center">Contactame</h2>
@@ -137,8 +137,10 @@ const Curriculum = () => {
               </div>
               <address>Medellín, Colombia.</address>
               <p>
-                Trabajando como desarrollador de backend y frontend para
-                desarrollar formularios web donde los usuarios pueden realizar
+                Desarrollador de backend y frontend en los lenguajes y
+                frameworks ASP.NET C#, .NET Core, Web Forms, Razor Pages, Html5,
+                CSS3, Bootstrap y manejo de base de datos SQL Server para crear
+                formularios web donde los usuarios pueden realizar
                 adquisiciones, generar pedidos, rastrear contratos.
               </p>
               <p>
@@ -155,22 +157,13 @@ const Curriculum = () => {
               </div>
               <address>Medellín, Colombia.</address>
               <p>
-                Trabajé como desarrollador backend y frontend, desarrollando
-                API's, diseñando formularios, desarrollando workflows, etc.
-                \n-Trabajó en la programación de dispositivos físicos que las
-                empresas colocan en sus sucursales donde los usuarios pueden
-                pagar impuestos, buscar información y todo esto con efectivo. -
-                Trabajó en la programación de dispositivos físicos que los cines
-                colocan en sus sucursales donde los usuarios pueden pagar
-                boletos, buscar funciones, seleccionar sala de posición, buscar
-                boletos comprados y todo esto con efectivo.
+                Desarrollo de aplicaciones en los lenguajes de ASP.NET C#,
+                Windows Forms, MVC 5, Web Forms, WPF, y manejo de base de datos
+                SQL Server
               </p>
               <p>
-                Dispositivos físicos integrados que administran efectivo como
-                billetera, monedero, escáner de dedos, etc. Se utiliza en
-                software para obtener dinero, devolver dinero, habilitar la
-                autenticación. n-Implementó y administró la infraestructura de
-                traducción en nuestras aplicaciones frontend y backend.
+                Implementacion y administracion de la infraestructura de las
+                aplicaciones frontend y backend.
               </p>
 
               <p className="date">Abril 2017 &rArr; Octubre 2017</p>
@@ -227,12 +220,12 @@ const Curriculum = () => {
             </div>
             <div className="hv-content">
               <p>
-                Tecnologo de sistemas, ITM(Instituto Tecnologico Metropolitano),
-                obtenido en junio del 2015.
-              </p>
-              <p>
                 Ingeniero de sistemas,ITM(Instituto Tecnologico Metropolitano),
                 obtenido en abril del 2018.
+              </p>
+              <p>
+                Tecnologo de sistemas, ITM(Instituto Tecnologico Metropolitano),
+                obtenido en junio del 2015.
               </p>
               <p>Certificaciones de Platzi, Platzi,obtenidas desde el 2019.</p>
             </div>
@@ -306,7 +299,6 @@ const Curriculum = () => {
         }
 
         .photo {
-          border: 1px solid ${colors.white};
           box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
         }
 
@@ -382,6 +374,10 @@ const Curriculum = () => {
         }
         .print:hover {
           text-decoration: underline;
+        }
+
+        footer {
+          display: none !important;
         }
 
         @media (max-width: ${breakpoints.ipad}) {
