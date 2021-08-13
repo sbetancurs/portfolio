@@ -36,7 +36,7 @@ const Curriculum = () => {
                 </div>
               </div>
               <div className="w-100 mt-5 px-2"></div>
-              <h2 className="mb-2">Contacto</h2>
+              <h2 className="mb-2 text-center">Contacto</h2>
               <div className="ps-2">
                 <div>
                   <img src="/icons/mail.svg" alt="mail" />
@@ -69,7 +69,7 @@ const Curriculum = () => {
               </div>
             </div>
             <div className="w-100 mt-5 px-2">
-              <h2 className="mb-2">Habilidades</h2>
+              <h2 className="mb-2 text-center">Habilidades</h2>
               <ul>
                 <li>
                   <b>Leguajes:</b> C#, Razor Pages, JavaScript.
@@ -92,7 +92,7 @@ const Curriculum = () => {
               </div>
             </div>
             <div className="w-100 mt-5 px-2">
-              <h2 className="mb-2">Idiomas</h2>
+              <h2 className="mb-2 text-center">Idiomas</h2>
               <ul>
                 <li>
                   <b>Inglés</b> (B1)
