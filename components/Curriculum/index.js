@@ -91,6 +91,12 @@ const Curriculum = () => {
                 </li>
               </ul>
             </div>
+            <div className="line w-100 ">
+              <div className="arrow">
+                <div className="pin"></div>
+                <div className="pin"></div>
+              </div>
+            </div>
             <div id="languageMenu" className="w-100 mt-5 px-2">
               <div className="printFeature d-flex justify-content-center mb-3">
                 <img src="/icons/printer.svg" alt="print" />
@@ -114,10 +120,10 @@ const Curriculum = () => {
                 Ingeniero de sistemas con experiencia en programación de
                 Software orientado al lenguaje de programación C# utilizando
                 ASP.NET Framework Y ASP.NET Core; orientado en desarrollo de
-                frontend en MVC, Web forms, desarrollo de backend en Web Api y
+                frontend en MVC, Web forms; desarrollo de backend en Web Api y
                 Web Service; orientado en desarrollo de aplicaciones de
                 escritorio utilizando Windows Forms y WPF; adicionalmente con
-                conocimientos en desarrollo Web utilizando en HTML5, CSS3 y
+                conocimientos en desarrollo Web utilizando HTML5, CSS3 y
                 Javascript; igualmente en administración de base de datos
                 utilizando SQL Server y Oracle.
               </p>
@@ -125,7 +131,7 @@ const Curriculum = () => {
                 Profesional con aptitud de liderazgo, proactivo, capacidad para
                 afrontar y resolver problemas, trabajo en equipo, adaptación al
                 cambio, responsable, honesto y con excelentes relaciones
-                interpersonales
+                interpersonales.
               </p>
             </div>
 
@@ -202,7 +208,7 @@ const Curriculum = () => {
                       <b>Teléfono:</b> 3126104754
                     </li>
                     <li>
-                      <b>E-mail:</b> brandon377@hotmail.com
+                      <b>E-mail:</b> brandon-377@hotmail.com
                     </li>
                   </ul>
                 </li>
