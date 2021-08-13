@@ -6,6 +6,7 @@ const Curriculum = () => {
     cel: "3168216424",
     email: "julianangel94@gmail.com",
     name: "Julián Ángel Arango",
+    saludo:"hola mi papa"
   };
 
   const print = () => {
