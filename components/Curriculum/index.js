@@ -25,31 +25,42 @@ const Curriculum = () => {
               className="photo rounded w-100"
             />
             <div className="w-100 mt-3 px-2">
-              <h2 className="mb-2 text-center">Contacto</h2>
-              <ul>
-                <li>
+              <div className="my-3">
+                <h1>{info.name}</h1>
+                <h4>Ingeniero de sistemas</h4>
+              </div>
+              <div className="line w-100 ">
+                <div className="arrow">
+                  <div className="pin"></div>
+                  <div className="pin"></div>
+                </div>
+              </div>
+              <div className="w-100 mt-5 px-2"></div>
+              <h2 className="mb-2">Contacto</h2>
+              <div className="ps-2">
+                <div>
                   <img src="/icons/mail.svg" alt="mail" />
                   <span className="mx-2">
                     <a id="email" href={`mailto:${info.email}`}>
                       {info.email}
                     </a>
                   </span>
-                </li>
-                <li>
+                </div>
+                <div>
                   <img src="/icons/phone.svg" alt="phone" />
                   <span className="mx-2">{info.cel}</span>
-                </li>
-                <li>
+                </div>
+                <div>
                   <img src="/icons/geo.svg" alt="localization" />
                   <span className="mx-2">
                     Calle 37 # 87 - 19, Medellín, Colombia.
                   </span>
-                </li>
-                <li>
+                </div>
+                <div>
                   <img src="/icons/award.svg" alt="born" />
                   <span className="mx-2">04/06/1994</span>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
             <div className="line w-100 ">
               <div className="arrow">
@@ -58,7 +69,7 @@ const Curriculum = () => {
               </div>
             </div>
             <div className="w-100 mt-5 px-2">
-              <h2 className="mb-2  text-center">Habilidades</h2>
+              <h2 className="mb-2">Habilidades</h2>
               <ul>
                 <li>
                   <b>Leguajes:</b> C#, Razor Pages, JavaScript.
@@ -81,7 +92,7 @@ const Curriculum = () => {
               </div>
             </div>
             <div className="w-100 mt-5 px-2">
-              <h2 className="mb-2  text-center">Idiomas</h2>
+              <h2 className="mb-2">Idiomas</h2>
               <ul>
                 <li>
                   <b>Inglés</b> (B1)
@@ -265,7 +276,6 @@ const Curriculum = () => {
 
         h2 {
           font-size: ${fontSizes.font_size_md};
-          border-bottom: 1px solid ${colors.white};
         }
 
         span {
@@ -303,7 +313,7 @@ const Curriculum = () => {
         }
 
         .line {
-          border-bottom: solid 2px #fff;
+          border-bottom: solid 2px #999999;
           height: 40px;
           position: relative;
           width: 100%;
@@ -323,7 +333,7 @@ const Curriculum = () => {
         .arrow .pin {
           width: calc(50% + 5px);
           height: 2px;
-          background: #fff;
+          background: #999999;
           display: inline-block;
           float: left;
           transform: rotate(25deg);
