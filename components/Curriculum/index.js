@@ -22,7 +22,7 @@ const Curriculum = () => {
             <img
               src="/images/me.jpg"
               alt="Curriculum"
-              className="photo rounded w-100"
+              className="photo rounded w-75 h-25"
             />
             <div className="w-100 mt-3 px-2">
               <div className="my-3">
@@ -299,6 +299,7 @@ const Curriculum = () => {
 
         .photo {
           box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+          object-fit:fill;
         }
 
         .hv-section {
